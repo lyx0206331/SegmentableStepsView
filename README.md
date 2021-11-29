@@ -4,6 +4,7 @@
 [![](https://jitpack.io/v/lyx0206331/SegmentableStepsView.svg)](https://jitpack.io/#lyx0206331/SegmentableStepsView)
 
 使用方法:  
+第一步:  
 Gradle 7.0.3之前的版本，将以下代码加入根目录下build.gradle存储库末尾:
 
 	allprojects {
@@ -25,7 +26,8 @@ Gradle 7.0.3及之后的版本，将以下代码加入settings.gradle文件中:
 }
 
 
-Step 2. Add the dependency
+第二步:  
+当前模块build.gradle文件中加入依赖:
 
 	dependencies {
 	        implementation 'com.github.lyx0206331:SegmentableStepsView:Tag'
