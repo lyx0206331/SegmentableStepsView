@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SegmentableStepsView">
+<!--        <attr name="step_corner_radius" format="dimension|reference" />-->
+        <attr name="max_steps" format="integer" />
+        <attr name="step_index" format="integer" />
+        <attr name="step_background_color" format="color|reference"/>
+        <attr name="step_colors_array" format="reference" />
+        <attr name="step_stroke_width" format="dimension|reference" />
+        <attr name="step_style" format="enum">
+            <enum name="ring" value="0" />
+            <enum name="line_horizontal" value="1" />
+            <enum name="line_vertical" value="2" />
+            <enum name="circle" value="3" />
+        </attr>
+        <attr name="step_outside_radius" format="dimension|reference" />
+        <attr name="step_ring_center_color" format="color|reference" />
+        <attr name="step_ring_center_image" format="reference" />
+        <attr name="step_ring_center_text" format="string|reference" />
+        <attr name="step_ring_center_textSize" format="dimension|reference" />
+        <attr name="step_ring_center_textColor" format="color|reference" />
+        <attr name="step_ring_center_textStyle" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+            <enum name="bold_italic" value="3" />
+        </attr>
+        <attr name="step_ring_auto_adjust_textSize" format="boolean" />
+    </declare-styleable>
+</resources>
