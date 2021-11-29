@@ -30,6 +30,6 @@ Gradle 7.0.3及之后的版本，将以下代码加入settings.gradle文件中:
 当前模块build.gradle文件中加入依赖:
 
 	dependencies {
-	        implementation 'com.github.lyx0206331:SegmentableStepsView:Tag'
+	        implementation 'com.github.lyx0206331:SegmentableStepsView:-SNAPSHOT'
 	}
  
