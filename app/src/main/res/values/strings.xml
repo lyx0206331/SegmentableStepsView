@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SegmentableStepsView</string>
+
+    <string name="switch_style">切换样式</string>
+    <string name="increase">递增</string>
+    <string name="decrease">递减</string>
 </resources>

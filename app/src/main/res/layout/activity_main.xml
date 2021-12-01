@@ -16,7 +16,7 @@
         android:paddingTop="10dp"
         android:paddingEnd="20dp"
         android:paddingBottom="15dp"
-        android:background="@color/white"
+        android:background="@color/design_default_color_secondary"
         app:max_steps="7"
         app:step_index="0"
         app:step_style="ring"
@@ -30,7 +30,7 @@
         app:step_ring_center_textStyle="bold_italic"
         app:step_ring_center_textSize="20sp"
         app:step_ring_auto_adjust_textSize="true"
-        app:step_ring_center_textColor="@color/design_default_color_primary"
+        app:step_ring_center_textColor="@color/pink"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent" />
 
@@ -48,29 +48,37 @@
 
     <Button
         android:id="@+id/btnSwitch"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="切换"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:text="@string/switch_style"
+        android:textSize="11sp"
+        app:layout_constraintStart_toEndOf="@id/segmentableStepsView"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnIncrease"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="递增"
-        app:layout_constraintRight_toRightOf="parent"
+        android:text="@string/increase"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="@id/btnSwitch"
+        app:layout_constraintStart_toStartOf="@id/btnSwitch"
         app:layout_constraintTop_toBottomOf="@id/btnSwitch" />
 
     <Button
         android:id="@+id/btnDecrease"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:text="递减"
-        app:layout_constraintRight_toRightOf="parent"
+        android:text="@string/decrease"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="@id/btnSwitch"
+        app:layout_constraintStart_toStartOf="@id/btnSwitch"
         app:layout_constraintTop_toBottomOf="@id/btnIncrease" />
 
     <androidx.appcompat.widget.AppCompatImageView
