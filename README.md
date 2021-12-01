@@ -1,4 +1,4 @@
-# SegmentableStepsView
+# SegmentableStepsView  [![](https://jitpack.io/v/lyx0206331/SegmentableStepsView.svg)](https://jitpack.io/#lyx0206331/SegmentableStepsView)
 
 可分段步骤进度控件,用户可根据自身需求，选择设置控件样式(水平，垂直，环状，饼状)，可传入颜色数组分别设置不同进度的前景色，颜色数超过最大步数n时，仅取与总步数n的颜色，颜色数量少于总步数时，不路颜色以最后一个颜色补足；环状时，中间部分可设置填充颜色或者图片，同时也可添加文字，文字可选择自动变化大小。
 
@@ -32,7 +32,7 @@ Gradle 7.0.3及之后的版本，将以下代码加入settings.gradle文件中:
 当前模块build.gradle文件中加入依赖:
 
 	dependencies {
-        implementation 'com.github.lyx0206331:SegmentableStepsView:master-SNAPSHOT'
+        implementation 'com.github.lyx0206331:SegmentableStepsView:1.0.3'
 	}
 
 ## 参数说明：
