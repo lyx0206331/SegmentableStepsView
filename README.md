@@ -85,6 +85,7 @@ Gradle 7.0.3及之后的版本，将以下代码加入settings.gradle文件中:
 
 
 设置监听:  
+	
 	segmentableStepsView.stepChangeListener = { step ->
 		
 	}
